@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margineform"
+        android:layout_marginRight="@dimen/margineform"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/name"
+                android:textColor="@color/white" >
+
+                <requestFocus />
+            </EditText>
+
+        </LinearLayout>
+        
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/marginebetween" >
+
+            <EditText
+                android:id="@+id/txtlname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/lastname"
+                android:textColor="@color/white" >
+        
+            </EditText>
+
+        </LinearLayout>
+        
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/marginebetween" >
+
+            <EditText
+                android:id="@+id/txtuser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/username"
+                android:textColor="@color/white" >
+        
+            </EditText>
+
+        </LinearLayout>
+        
+                                <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/txtpass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginebetween"
+                android:layout_weight="1"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:textColor="@color/white" >
+        
+            </EditText>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/txtcell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginebetween"
+                android:layout_weight="1"
+                android:hint="@string/cellphone"
+                android:inputType="phone"
+                android:textColor="@color/white" >
+        
+            </EditText>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/txtemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginebetween"
+                android:layout_weight="1"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white" >
+        
+            </EditText>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btsave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginebetween"
+            android:background="@drawable/efecto_boton"
+            android:text="@string/save" />
+      
+    </LinearLayout>
+
+</LinearLayout>

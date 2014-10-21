@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TechnoGlobalExample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="name">Name</string>
+    <string name="lastname">Last name</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="cellphone">Cellphone</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="edit">edit</string>
+    
+    <string name="valuesId">valueid</string>
+    
+    <!-- Bar -->
+    <string name="opt_user">Add user</string>    
+	<string name="empty_data">View your users here after register them</string>
+
+    <!-- DatBase -->
+    <string name="databasenamer">techexample</string>    
+    
+    <!-- message -->
+    <string name="error">Error, please try again</string>    
+    <string name="good">Operation Successfull</string>
+    
+        <!-- btns -->
+    <string name="save">Save</string>    
+    <string name="delete">Delete</string>
+    
+</resources>
